@@ -18,7 +18,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion_add
-version: "2020.08.22"
+version: "2020.08.25"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -195,6 +195,14 @@ min_phrase_weight: 100
 #嗯	eng3	0%
 嗯	eng4	0%
 嗯	en2	0%
+誒	eh2	0%
+欸	eh2	0%
+诶	eh2	0%
+欸	eh3	0%
+誒	eh3	0%
+诶	eh3	0%
+噝	si2	0%
+嘶	si2	0%
 ##### 補充一般可理解為《輕聲》之發音，『非正確發音』！！！ #####
 #係	xi5
 #系	xi5
@@ -297,6 +305,7 @@ min_phrase_weight: 100
 哺	bu5	0%
 卟	bu5	0%
 吥	bu5	0%
+咘	bu5	0%
 叭	ba5	10%
 卟	bo5	0%
 哵	ba5	0%
@@ -415,6 +424,7 @@ min_phrase_weight: 100
 呌	dou5	0%
 嘟	dou5	0%
 唗	dou5	0%
+唞	dou5	0%
 嘽	dan5	0%
 啖	dan5	0%
 呾	dan5	0%

@@ -52,7 +52,7 @@
 #              「黴霉楣」←《 把“倒楣”“倒霉”前者權重設較高，刪除部分錯誤“黴”用字，待攷 》
 #              「斗(鬥)」←《 依照字義 》
 #
-#    未修改：「污汙」「蔘參」。
+#    未修改：「污汙」「蔘參」「閑閒」。
 #
 #    PS：以上說明之字典為教育部重編國語詞典修訂本（http://dict.revised.moe.edu.tw/cbdic/）
 # -------------------------------
@@ -67,7 +67,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "2020.08.22"
+version: "2020.08.25"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -600,8 +600,8 @@ min_phrase_weight: 100
 𤥻	yan2
 𤦂	guo2
 𤦉	sheng4
-𤦩	eh4
 𤦩	e4
+#？#𤦩	eh4
 𤦺	qi2
 𤧬	wan3
 𤧬	wan4
@@ -3531,6 +3531,9 @@ min_phrase_weight: 100
 扻	zhi4	0%
 欿	qian4	0%
 埳	xian4	0%
+请	qing2	0%
+与	yu2	0%
+与	yu4	0%
 #####@ 201912 比對教育部相關字詞典檔所新增 #####
 丁	zheng1	0%
 丂	kao3	0%
@@ -5405,7 +5408,7 @@ min_phrase_weight: 100
 㕲	ying2
 㕴	chen2
 㕵	guo2
-#㕷	hua4
+㕷	hua4
 㕷	pa1
 㕷	pia1
 㕸	li4
@@ -11113,7 +11116,7 @@ min_phrase_weight: 100
 䩛	pei4
 䩜	zhou4
 䩝	pao2
-#䩞	die1
+䩞	die1	0%
 䩞	tie2
 䩟	ti4
 䩟	yi2
@@ -24557,7 +24560,7 @@ min_phrase_weight: 100
 睟	sui4
 睠	juan4
 睡	shui4
-#睢	hui1	30%
+睢	hui1	30%
 睢	sui1	70%
 督	du1
 睤	bi4
@@ -30424,7 +30427,7 @@ min_phrase_weight: 100
 謸	ao2
 謹	jin3
 謺	zhe2
-#謻	chi2
+謻	chi2	0%
 謻	yi2
 謼	hu1
 謽	jiang4
@@ -33532,7 +33535,7 @@ min_phrase_weight: 100
 门	men2
 闩	shuan1
 闪	shan3
-# 闫	yan4
+#闫	yan4
 闫	yan2
 闬	han4
 闭	bi4
