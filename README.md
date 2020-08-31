@@ -1,2 +1,2 @@
-# RemeOnion
-RIME - 注音洋蔥版
+# RimeOnion
+RIME - 洋蔥系列
