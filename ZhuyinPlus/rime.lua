@@ -661,6 +661,18 @@ function t_translator(input, seg)
     return
   end
 
+  y, m, d = string.match(input, "`(%d+)-(%d?%d)-(%d?%d)$")
+  if(y~=nil) then
+    yield(Candidate("date", seg.start, seg._end, y.."年"..m.."月"..d.."日" , "〔日期〕"))
+    return
+  end
+
+  m, d = string.match(input, "`(%d?%d)-(%d?%d)$")
+  if(m~=nil) then
+    yield(Candidate("date", seg.start, seg._end, m.."月"..d.."日" , "〔日期〕"))
+    return
+  end
+
   end
 end
 

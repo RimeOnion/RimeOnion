@@ -67,7 +67,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "2020.08.05"
+version: "2020.08.22"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -105,6 +105,8 @@ min_phrase_weight: 100
 #兣	li2 ke4	0%
 兞	hao2 ke4	10%
 嗧	jia1 lun2	10%
+甅	li2 wa3	10%
+𣄽	xing1 qi2 yi1	10%
 ##### 「韓文」「日文」漢字，有些沒有官方中文發音，『可能非正確讀音』！！！ #####
 #橴	za1
 #橴	ca1
@@ -115,10 +117,10 @@ min_phrase_weight: 100
 巭	pu1
 巭	bu1
 乊	yi1
-乊	ho5
+#乊	ho5
 乤	xia4
 乥	hu4
-乥	ho5
+#乥	ho5
 乧	dou3
 乫	jia1
 乷	sha1
@@ -137,9 +139,2167 @@ min_phrase_weight: 100
 朰	mu4
 畓	duo1
 罖	wang3
+罖	luo2
 罖	ra1
 込	yu1
 冴	ya2
+䓀	jie2
+䓀	ju2
+𠵇	qi3
+#？#𠵇	ji1
+𣋠	cai4
+𣋠	qi2
+𣑐	diao4
+𣕚	mao4
+𣕚	mou4
+𣜿	ye4
+𣜿	die2
+𣺊	jia1
+𤨒	en1
+𦱾	ping2
+𧨎	wan2
+𨸶	ping2
+𩂱	yi1
+##### 補充 Big5E Hkscs JIS 中有的單字 #####
+㑀	tai4
+㒯	ye4
+㓻	gang1
+㕓	chan2
+㖄	zhou1
+㖄	zhu4
+㚼	hao3
+㜢	lv3
+㜢	lou2
+㜭	dang1
+㟸	gao1
+㣺	xin1
+㫞	tao1
+㫠	ban4
+㬢	xi1
+㰕	xi1
+㴻	shu4
+㴻	zhu4
+㵟	wei1
+㵟	mei2
+㶊	yi2
+㷌	gui1
+#？#㷌	zhou3
+㷛	bao1
+㷧	yuan2
+㷨	feng1
+㸆	kao4
+㸆	kao3
+㻇	quan2
+㻛	chang4
+㻛	yang2
+㻢	shi1
+㻩	lian2
+㻴	man4
+㻼	tan2
+㼄	ji1
+㼆	ying2
+㿀	ban1
+㿈	yong1
+䀝	pi2
+䂨	zhou2
+䃟	san3
+䄃	yang1
+䇊	hong2
+䊢	jiang1
+䊢	jiang4
+䊹	xian1
+䊹	qian1
+䊹	qian4
+䑺	fan1
+䑺	fan2
+䓩	qiao2
+䕜	cui4
+䘗	hui1
+䚀	chen1
+䚀	chen4
+䮐	jiong1
+䮐	jiong3
+䱽	chang1
+䲷	xiao1
+龦	chang2
+龧	shu3
+龬	wang3
+龭	yi4
+#補簡體字#
+𩨎	yi4
+龯	yue4
+龯	hui4
+#補簡體字#
+𨱆	yue4
+#補簡體字#
+𨱆	hui4
+龰	zou3
+龰	zhi3
+龱	si4
+龲	ku4
+鿈	chi3
+鿉	wu3
+龜	gui1
+龜	jun1
+龜	qiu1
+𠀡	tian1
+𠀾	pei1
+#補充#
+𠁞	pei1
+𠃮	jiu1
+𠄎	nai3
+𠄘	cheng2
+𠆤	ding1
+𠇁	yin3
+𠇔	tuo1
+𠇔	cha4
+𠇲	xu3
+𠇲	xiu1
+𠇲	xiu3
+𠈄	huan4
+𠈌	yu2
+𠈔	shi1
+𠈹	you1
+𠌥	wu1
+#補簡體字#
+𠆿	wu1
+𠍾	yan3
+𠍿	lu3
+𠎀	jie2
+𠎠	jing3
+𠏉	wo4
+𠏉	guan3
+𠏉	gan4
+𠏉	han2
+𠏋	yu3
+𠐟	liao2
+𠐟	liao3
+𠒇	er2
+𠒇	ni2
+𠒎	fu2
+𠕇	dian1
+𠕇	dian4
+𠗃	yin1
+𠗟	mei3
+𠘑	xi1
+𠘰	chu4
+𠘰	chu3
+𠙖	ping2
+𠡳	mian3
+𠡳	min3
+𠤖	bei4
+𠤣	ci4
+𠤣	zi1
+𠧧	xi1
+𠩯	cun2
+𠪊	lian2
+𠫂	lu2
+𠫍	xi4
+𠬍	jun4
+𠬍	rui4
+𠮏	rui4
+𠮏	rui3
+𠯿	lu4
+𠯿	liu1
+𠰠	ju4
+𠱂	tu1
+𠱃	ao1
+𠱃	nie4
+𠱷	ming2
+𠱸	chen2
+𠲸	nan2
+𠳝	fou3
+𠳝	pi3
+𠴕	miao4
+𠵱	yi1
+𠵴	ming4
+𠵿	pei1
+𠵉	hang2
+𠶜	zhi4
+𠸎	na1
+𠸝	jie2
+𠸝	sha4
+𠸝	die2
+𠸝	ti4
+𠹭	ge1
+𠹳	jie2
+𠺌	gui3
+𠺪	qi4
+𠺬	qi3
+𠻘	jiao2
+𠻘	jue2
+𠻘	jiao4
+𠻸	si4
+𠼦	man2
+𠼦	man4
+𠼭	bo1
+𠼱	ne5
+𠽤	ji3
+𠾍	qi4
+𠾴	bang4
+𠿪	jia3
+𡁏	meng2
+𡁶	jie1
+𡂈	pu1
+𡂈	pu3
+𡃇	bi4
+𡃈	ke4
+𡃏	duo4
+𡃤	lai4
+𡃤	ta4
+𡃴	sui2
+𡉏	pi3
+𡉏	yi2
+𡉼	ji1
+𡉼	sheng1
+𡍵	jun4
+𡎎	xu4
+𡏅	lang2
+𡑒	kan3
+𡑒	gan3
+𡕷	xiong4
+#？#𡕷	xuan4
+𡖂	kui2
+𡖖	qing1
+𡘊	fen4
+𡘊	gang3
+𡘊	ben3
+𡘙	tai4
+𡙡	geng1
+𡙡	lang2
+𡚒	fen4
+𡚸	yao3
+𡚸	yao1
+𡚺	fan4
+𡚺	zhi2
+𡛂	yi1
+#？#𡛂	yin3
+𡛦	bing3
+𡛾	nai3
+𡛾	ni4
+𡜍	ji2
+𡝭	chang1
+𡞱	lv3
+𡞱	lou2
+𡞲	ping1
+𡞲	pin4
+𡠠	tang2
+𡠪	man4
+#？#𡠪	man1
+𡠺	ying1
+𡢃	xian2
+#補簡體字#
+㛠	xian2
+𡣑	pin2
+𡤒	jie1
+𡤒	qi4
+𡤒	ju3
+𡥄	ci2
+𡥪	xin4
+𡦀	lang3
+𡧳	sai4
+𡨭	song1
+𡨴	ning2
+𡨴	ning4
+𡩅	jia1
+𡩅	gu1
+𡩋	ning2
+𡯂	wang1
+𡱰	tun2
+𡱰	du1
+𡲬	qu1
+𡵆	qi3
+𡵆	hu4
+𡷊	dao3
+𡷫	cheng2
+𡸽	zhi2
+𡼏	jian4
+#補充#
+𧯎	jian4
+𡼕	jun4
+𡽪	hui1
+𡾞	xi1
+𡾡	jin1
+𡾡	qin2
+𢁅	xun4
+𢁅	sun4
+𢁉	xun4
+𢁉	sun4
+𢂚	zhuo2
+𢂚	zhuo1
+𢃇	li3
+𢅛	long2
+𢆡	nian2
+𢇁	si1
+𢇁	zi1
+𢏺	bi4
+𢑥	hui4
+𢒑	yang2
+𢒑	xiang2
+𢓉	fan3
+𢓭	qun1
+#？#𢓭	jun4
+𢔓	feng4
+𢖍	heng2
+𢖯	ji1
+𢖯	yi4
+𢘫	zheng4
+𢘫	zheng1
+𢛴	meng3
+𢜔	zhi4
+𢡠	zhi4
+𢡱	que4
+𢤦	dong3
+𢥧	yuan4
+𢦓	wo3
+𢦓	e3
+𢫦	pai1
+𢫦	bo2
+𢫦	pa1
+𢫦	po4
+𢬎	heng2
+𢬎	gen4
+𢬎	geng1
+𢬎	geng4
+𢭪	ke1
+𢭪	ke4
+𢯎	ao1
+𢯎	yi1
+𢰦	chun1
+𢰸	gua3
+𢰸	guo1
+𢰸	wo1
+𢱑	hua4
+𢱑	wa4
+𢱕	da4
+𢳉	ju1
+𢳉	gou1
+𢵄	cuo4
+𢵧	xian4
+𢶕	jian3
+𢶕	jian1
+𢹂	xie2
+𢹂	xi1
+𢺋	tan1
+𢻯	xue2
+𢻯	xiao4
+𢽴	zhuo2
+𢽴	chu4
+𣁄	ju3
+𣁋	wei2
+𣁋	wei1
+𣁽	kui2
+𣂷	jin4
+𣂷	qin2
+𣂼	qin2
+#?#𣂼	jin3
+𣃚	hang2
+𣄃	qi2
+𣅽	po4
+𣅽	pei4
+#?#𣅽	bo2
+𣇈	xiao3
+𣇪	yao4
+𣇪	yue4
+𣇸	chun1
+𣈏	xi1
+𣈏	xi2
+𣈯	yu4
+𣈱	chang4
+𣈳	wan3
+𣉞	hao4
+𣉞	gao3
+𣌀	xi1
+𣏌	qi3
+𣏌	si4
+𣏴	ren2
+𣏹	zai1
+𣑯	tao2
+𣑯	zhao4
+𣕑	chu3
+𣗳	shu4
+𣘼	qi3
+#補充#
+𣙅	qi3
+𣙙	su4
+𣚞	yan2
+#？#𣚞	ta1
+𣚺	xiang4
+𣛟	cheng1
+𣛟	zhang3
+𣛮	sheng1
+𣜃	you3
+𣜃	chao3
+𣫺	yu4
+𣲙	ni4
+𣲙	niao4
+𣳇	guai4
+𣵀	nie4
+𣵾	gui1
+𣵾	wa1
+𣷸	fan1
+𣷸	fan4
+𣸑	liang2
+𣸯	you2
+#？#𣸯	liu2
+𣺹	zhan1
+𣺹	zhang1
+#？#𣺹	zhang4
+𣻗	yi2
+𣽊	jun4
+𣽊	xun4
+𣽊	rui4
+𣿰	jun4
+𣿰	xun4
+𤀑	ning4
+𤀑	ning2
+𤀑	ni4
+𤂅	jing4
+𤂅	cheng1
+𤂅	zheng1
+𤃬	huan3
+𤃬	huan4
+𤃬	wan3
+𤄙	xiao1
+𤅀	ying2
+𤅡	hao4
+𤅷	ling2
+𤆣	sha4
+𤆤	zhen4
+𤆬	qu3
+𤆬	shi4
+#？#𤆬	chua1
+𤈛	guang1
+𤈛	yang3
+𤉙	qun2
+𤉙	jun1
+𤉷	ran2
+𤋁	yang2
+𤋁	yang4
+𤋮	xi1
+𤋮	yi2
+𤎌	tang2
+𤑛	xun1
+𤒼	huang3
+𤒼	huang4
+𤒼	guang3
+𤓎	zuan3
+𤓓	luo2
+#補簡體字#
+𬊜	luo2
+𤓖	xie4
+𤓖	yi4
+𤔅	die2
+𤞏	shi1
+#？#𤞏	xi1
+𤠒	si1
+𤣩	yu4
+𤣱	yi3
+𤣱	qi3
+𤤴	jue2
+𤥻	yan2
+𤦂	guo2
+𤦉	sheng4
+𤦩	eh4
+𤦩	e4
+𤦺	qi2
+𤧬	wan3
+𤧬	wan4
+𤨕	le4
+𤨡	lang3
+𤩅	xuan2
+𤩹	bi4
+𤫀	jun4
+𤫀	xuan2
+𤫀	rui4
+𤫊	ling2
+𤷪	meng3
+𤷫	la4
+𤺥	da5
+𤺥	da2
+𤺥	da1
+𤺧	fu1
+𤽜	mo4
+𤾆	dou1
+#?#𤾆	tou1
+𤾗	kuang4
+𤾸	hua1
+𤾸	wei3
+𥈠	rui4
+𥋇	ding4
+𥋇	cheng1
+𥋇	cheng4
+𥌎	run2
+𥌎	shun4
+𥌎	ruan2
+𥐰	ou1
+𥐰	qu1
+𥐰	ao1
+𥑆	jia1
+𥑬	shan1
+𥑬	ce4
+𥑮	gu3
+𥑮	gu5
+𥒚	nao2
+𥔵	ci2
+𥕥	ou1
+𥕥	qu1
+𥕥	ao1
+𥖄	xian4
+𥘅	shi4
+𥘅	qi2
+𥚃	li3
+#補充#
+𥚹	bian3
+𥚹	pian2
+𥜽	xie4
+𥟟	mu4
+𥟡	zong4
+𥣞	di2
+𥣞	zhe2
+𥣞	zhe4
+𥤃	you4
+𥥆	yao3
+𥥆	yao4
+𥥆	qiao4
+𥧌	mei4
+𥮉	pu2
+𥯆	song1
+𥱊	xi2
+𥲤	ju4
+𥳁	ju4
+𥳾	gou1
+𥴰	jing4
+𥴰	tuo4
+𥶙	hui4
+𦄡	man4
+𦅚	yao2
+𦅚	you2
+𦅚	zhou4
+𦆭	ning2
+𦉘	cheng1
+𦉘	cang1
+𦉪	ren2
+𦉪	wang3
+𦉫	ren2
+𦉫	wang3
+𦌵	lei2
+𦍋	mi3
+𦍋	mie1
+𦍋	xiang2
+𦍋	yang2
+#補充#
+𪦳	mi3
+𪦳	mie1
+𪦳	yang2
+𪦳	nai3
+𪦳	ni4
+𦍑	qiang1
+𦏵	yi4
+𦐂	yi4
+#?#𦐂	an1
+𦑊	jing1
+𦑩	hui1
+𦒄	hui4
+𦒄	guan4
+𦒉	yi4
+𦟌	jian3
+𦢈	jian3
+𦢈	yan2
+𦢓	meng4
+𦢓	mo4
+𦤹	zhi4
+𦧲	luo2
+𦧲	lei2
+𦧲	lei4
+𦧺	lai4
+𦨮	dai4
+𦬓	you2
+𦮂	shi1
+𦰡	nuo2
+𦰡	na4
+𦲤	yi1
+𦲷	li4
+𦵑	ju3
+𦶮	yun2
+𦸀	qi2
+𦸅	kou4
+𦸇	zhu2
+#?#𦸇	shu4
+#?#𦸇	shu2
+𦸒	yi1
+𦺈	sun1
+𦻐	zhao4
+𦻐	guan4
+𧀎	gao1
+𧂭	nou4
+𧃍	kui2
+#補充#
+𧌫	hong2
+𧊲	quan2
+𧊶	duo3
+𧋦	wei3
+𧖣	man2
+𧗾	heng2
+𧘹	tai1
+𧙖	gu1
+𧙖	hu4
+𧜶	shu4
+𧝞	ji1
+𧝞	ji4
+#補充#
+䘛	ji1
+䘛	ji4
+𧢲	jiao3
+𧢲	jue2
+𧢲	lu4
+𧣈	chu4
+𧣈	hu2
+𧤤	xi1
+#？#𧤤	hu4
+#？#𧤤	huo4
+𧥧	yan4
+𧥧	tong2
+𧥧	dong4
+#補充#
+𣨌	yan4
+𧦠	e4
+𧦠	e5
+𧦠	ai4
+𧧽	feng1
+𧩙	dan4
+#補充#
+䜥	dan4
+𧪄	ji4
+𧪄	xun4
+𧬘	lan2
+𧯴	chu3
+𧯴	shu4
+𧴯	mie1
+𧴯	mie2
+𧵦	kuang4
+𧶏	fou3
+𧶘	lai4
+𨀉	zhu4
+𨀞	zhuai3
+𨀣	qi4
+𨀣	qi3
+#？#𨀣	qi2
+𨂽	dan4
+𨂾	nan4
+𨂾	nan2
+𨃨	nian3
+𨃨	zhan3
+𨃨	chan2
+𨃩	xian4
+𨃴	gu1
+#？#𨃴	kua1
+𨅯	kua4
+𨆯	pu3
+𨆯	pu2
+𨆼	chu2
+𨌯	yu4
+𨍽	gun3
+𨎊	gun3
+𨐒	gu1
+𨐒	ci2
+𨑬	zhi4
+𨑬	li4
+𨑬	chi4
+#？#𨑬	shi4
+𨑳	ting2
+𨑳	wang3
+𨑳	wang4
+𨑳	kuang1
+𨑳	guang3
+#補充#
+𨓒	guang3
+𨓒	kuang1
+𨓒	wang4
+𨓒	wang3
+#補充#
+𨓏	ting2
+𨓏	guang3
+𨓏	kuang1
+𨓏	wang4
+𨓏	wang3
+𨒂	yan2
+𨔁	you1
+𨔁	you2
+𨔼	you2
+𨔽	ga1
+𨔽	jia1
+𨔽	qie1
+𨕬	wu4
+𨕬	wu3
+𨕬	e4
+𨚫	que4
+𨚼	yu4
+𨚼	dou1
+𨚼	du1
+𨛦	jun4
+𨤍	ling2
+𨥤	shu1
+𨥭	yong3
+𨥭	pi3
+𨥭	pi1
+𨥭	pi4
+#補充#
+𨱃	pi4
+𨱃	pi1
+𨥾	ping2
+𨥾	pi1
+𨦫	yu2
+𨦫	yu3
+#補充#
+䦀	yu2
+䦀	yu3
+𨦸	zhen4
+𨧀	du4
+𨨏	bo1
+𨨏	po1
+𨨖	qin2
+𨨖	zhen1
+𨪃	ting2
+𨫎	zhen1
+𨫎	jue2
+𨫢	di1
+𨫢	di2
+𨫼	ao4
+𨫼	ao2
+𨬓	yue4
+𨬓	hui4
+𨭌	pang1
+𨭌	peng2
+𨭎	xi3
+𨭐	dan1
+𨭐	chan2
+𨭐	di1
+𨭥	ye4
+𨭥	nie1
+𨯔	lei2
+𨯔	lei3
+𨯚	hui4
+𨯚	wei4
+𨯵	xing1
+𨰝	jian3
+𨰝	jian4
+𨰰	bao3
+#補充#
+𫒭	bao3
+𨶹	jing4
+𨶹	guan1
+𨸏	fu4
+𨸹	pi2
+𨸹	pi1
+𨺗	dou3
+𨺬	jie4
+𩁹	yu2
+𩁹	yu4
+𩄐	peng2
+#？#𩄐	jiang4
+𩆜	ling2
+#補充#
+𩆕	ling2
+𩐿	xiang3
+𩓙	ying3
+𩓙	yi3
+𩓚	kui2
+𩓚	qiu2
+𩗗	ju4
+𩜠	man3
+#補充#
+𬲿	man3
+𩠐	shou3
+𩣑	an1
+#補充#
+䯃	an1
+𩤃	liu2
+𩬎	ren2
+𩸆	ye4
+𩸆	ye1
+𩸆	yi4
+𩻸	dai4
+𩿞	ze2
+#？#𩿞	pi3
+#？#𩿞	pi1
+#補充#
+𩿌	pi1
+𩿌	pi3
+𪄇	fu4
+𪆫	qu2
+𪈳	li2
+𪊓	lin2
+𪊟	sheng1
+𪊲	lin2
+𪊴	suan1
+𪊺	lin2
+𪊽	jun1
+𪊽	qun2
+𪐴	zhu3
+𪑛	mei2
+吆	yao1
+屮	zuo3
+弢	tao1
+慈	ci2
+#補充#
+𠷕	chui1
+𠷕	chui4
+#補充#
+𠵔	peng4
+#補充#
+𠯖	han4
+𠰮	sheng1
+##### 補充 Big5E Hkscs JIS 中有的單字，「方言」「人名」等漢字，沒有官方中文發音，補充多以偏旁為發音，『可能非正確讀音』！！！ #####
+㗝	gao1
+㘘	pei4
+㘾	yu3
+㛇	zhuang1
+㛈	kao3
+㛡	wan2
+㛢	xiu4
+㜁	zha1
+㜬	zhan1
+㦙	yu2
+㮼	shan4
+㯴	rong2
+㳯	xin1
+㷽	shan4
+㻐	jun4
+㻚	beng1
+㻳	li4
+㼀	da2
+㼀	jian4
+㽓	sheng1
+㽓	xing4
+㽼	yin3
+䇄	yi4
+䊌	bi4
+䏭	chu2
+䏭	zhu1
+䓪	yi4
+䓪	dang4
+䓬	zhuo2
+䣳	tong2
+䣳	zuo4
+䣳	cu4
+龨	huai2
+龨	yan4
+龩	jin4
+龪	zhan1
+龪	fu4
+龫	gan4
+龫	wo4
+龫	guan3
+龮	ji4
+龮	yi4
+龳	lu4
+龳	xun2
+鿇	zheng1
+鿊	zhi3
+鿋	xi3
+鿐	jiu3
+𠁆	wai1
+𠁆	zhi1
+𠁎	sua3
+𠁎	lian2
+𠁨	zhong1
+𠁨	zhong4
+𠂊	ren2
+𠃋	gong1
+𠃍	zhe2
+𠃑	ni4
+𠃑	yin3
+𠆫	cai2
+𠉛	cheng2
+𠉴	yu3
+𠉵	ding4
+𠊙	yi2
+𠊞	zhong1
+𠊠	fen1
+𠊿	xuan1
+𠋀	yong3
+𠋥	mei2
+𠌊	lai2
+𠍁	min3
+𠍅	mai4
+𠍆	li4
+𠍇	jie2
+𠎧	jie2
+𠎵	yi4
+𠎵	jia4
+𠏵	feng4
+𠏼	jia1
+𠐓	ying2
+𠐔	lu3
+𠑥	chou2
+𠒑	yuan2
+𠒒	yin3
+𠒣	xing2
+𠓼	xie2
+𠓾	quan2
+𠖎	zhuo2
+𠖎	zhui4
+𠖳	wu4
+𠗐	wu2
+𠗕	jun4
+𠗠	meng4
+𠗫	huan4
+𠘙	luo4
+𠘙	po4
+𠘙	po1
+𠘙	bo2
+𠘙	li4
+𠘚	mo2
+𠘚	ma1
+𠝹	jie4
+𠠬	lian2
+𠠬	lian3
+𠠬	lian4
+𠠬	qian1
+𠥔	hui4
+𠥹	ou1
+𠨑	yin4
+𠨑	mang2
+𠩐	chen2
+𠪴	chu3
+𠮩	le5
+#？#𠮩	liao3
+#？#𠮩	liao4
+𠯆	nv3
+𠯢	sa4
+𠯻	you1
+𠯻	huan4
+𠱁	shan2
+𠱼	kao3
+𠳏	che3
+𠳓	bi4
+𠳔	huan4
+𠳕	chao1
+𠳖	da4
+𠵆	dan1
+𠵈	mei4
+𠵌	yi2
+𠵍	zhe2
+𠵎	gu1
+𠶖	wang3
+𠸉	e4
+𠸉	e1
+𠸉	e2
+𠸊	da1
+𠸍	xiao4
+𠸍	mei3
+𠸏	ga1
+𠸐	jin1
+𠸑	shao1
+𠸑	xiao1
+𠸖	yin2
+𠹵	yan4
+𠹶	peng1
+𠹷	e2
+𠹸	qin4
+𠹹	lun2
+𠹺	mai2
+𠹻	zhen4
+𠺫	liao4
+𠺶	na4
+𠻹	tian1
+𠻺	ya4
+𠻺	ya3
+𠻻	bi4
+𠼮	ai3
+𠼮	gui3
+𠼰	geng3
+𠽌	xue3
+𠾭	hui4
+𠾵	zha1
+𠾶	jing3
+𠾼	jue2
+𠿫	shao4
+𠿬	sha3
+𠿭	hua2
+𠿭	gu3
+𡀝	ren3
+𡀞	ji2
+𡁜	huo4
+𡁯	duo2
+𡁵	jin3
+𡁷	zhuo2
+𡁸	xi4
+𡁻	jiao4
+𡁻	jiao1
+𡁻	jiao2
+𡁻	jue2
+𡂴	lian2
+𡃀	yi4
+𡃁	leng1
+𡃁	jing4
+𡃉	jia4
+𡃓	bo1
+𡃴	chu2
+𡃵	yong1
+𡃶	xi1
+𡄯	yi4
+𡄽	xie4
+𡅈	la5
+𡅈	la2
+𡅏	li3
+𡆀	hong1
+𡆇	huo4
+𡇙	duo4
+𡇙	duo3
+𡊩	yu4
+𡊰	tian2
+𡋣	gui1
+𡋣	wa1
+𡋾	bie2
+𡌂	ben4
+𡌂	wen3
+𡌃	gao4
+𡌄	che1
+𡌄	ju1
+𡌅	fo2
+𡌶	ban4
+𡌶	bing4
+𡌺	meng2
+𡌺	qiang2
+𡎜	nan2
+𡏆	juan3
+𡏆	juan4
+𡏆	quan2
+𡏾	ji4
+𡑔	kun1
+𡑕	lan3
+𡒗	man2
+𡒗	man4
+𡒶	juan3
+𡒶	juan4
+𡒶	quan2
+𡓨	wan2
+𡓽	xun1
+𡘓	hou2
+𡘾	zang4
+𡘾	zhuang3
+𡛀	jiao3
+𡛁	wu4
+𡛓	ran3
+𡛓	nian3
+𡛕	tai4
+𡛧	zhen1
+𡛨	ka3
+𡛨	qia3
+𡛺	mao2
+𡛻	yong3
+𡛼	yu4
+𡜐	shu4
+𡜺	xing4
+𡜻	song4
+𡜼	hui2
+𡝗	qun2
+𡝬	bao3
+𡝮	yi2
+𡝯	li4
+𡝯	di4
+𡝰	la1
+𡝱	fen1
+𡝳	zhi1
+𡝴	yuan2
+𡞰	zi1
+𡞳	gui3
+𡞴	ping2
+𡟃	yuan4
+𡟇	yuan2
+𡟙	xing1
+𡟚	ying2
+𡟛	ping2
+𡟜	jiang1
+𡟵	ge1
+𡟶	e2
+𡟸	weng1
+𡟹	zhi4
+𡟺	xia4
+𡟻	yin1
+𡟼	hui4
+𡠨	di4
+𡠩	jian1
+𡠭	xue3
+𡠻	zao4
+𡡅	niao3
+𡡞	shun4
+𡡡	jing3
+𡡢	tang2
+𡡣	ju2
+𡡤	ji1
+𡡷	ling2
+𡡻	mei2
+𡢄	min3
+𡢅	yun2
+𡢞	ying1
+𡢟	chu3
+𡢠	wa1
+𡢡	qun2
+𡢢	yu2
+𡢾	jin1
+𡢿	nong2
+𡣖	chang2
+𡣖	shang1
+𡣗	jia1
+𡣘	meng2
+#？#𡣘	meng1
+𡣙	qi2
+𡣺	hui4
+𡤃	jian1
+𡤃	jian3
+𡤄	jian1
+𡤅	qin1
+𡤐	sai4
+𡤑	qiang2
+𡤕	xia2
+𡤜	yi4
+𡤜	zi1
+𡤧	bao3
+𡤻	luan2
+𡥘	chua1
+𡥘	hao3
+𡥼	fu4
+𡦈	ling4
+𡦖	man3
+𡧛	fu3
+𡧛	fu4
+𡩋	ning4
+𡭄	qiao1
+𡲢	qie2
+𡲢	jia1
+𡲥	man1
+𡲥	man3
+𡲥	sheng1
+𡶶	jiang4
+𡶶	feng1
+𡶺	pei4
+𡷑	ci4
+𡷹	xian4
+𡸷	qi2
+𡺉	li2
+𡺤	lan2
+𡺨	wei3
+#補簡體字#
+𫵶	wei3
+𢃼	mei2
+𢄪	liu4
+𢄪	liao2
+𢅳	lian2
+#？#𢅳	jian1
+𢇃	ya4
+𢇃	si1
+𢉼	geng1
+𢌡	jiong3
+𢌥	cheng3
+𢎽	ji2
+𢏐	hong2
+#？#𢏐	gong1
+𢑱	yi2
+𢒋	yong3
+𢒼	yi3
+𢓁	gong1
+𢓌	liu4
+𢔛	xing4
+𢔰	mei2
+𢖾	fan2
+𢖾	fan1
+𢘛	chi4
+𢘜	si4
+𢙨	guai4
+𢙨	cun2
+𢚖	ti4
+𢚘	xin4
+𢛵	zang2
+𢛶	wo4
+𢜒	lun2
+𢜛	xin1
+𢜟	wang3
+𢜟	gang1
+𢝵	fei1
+𢞁	feng1
+𢞴	en1
+𢞵	fei1
+𢟍	li4
+𢠃	qing2
+𢡟	mao4
+𢢭	yu2
+𢣁	gong4
+𢣷	ju4
+𢣷	yao4
+𢤹	ju4
+𢥫	yun4
+𢦀	zong3
+𢫏	kan3
+𢫕	ying3
+𢬢	diao4
+𢯊	nie1
+𢰧	you2
+𢲈	ji4
+𢲛	tu2
+𢲡	yan3
+𢲡	na2
+𢲩	ji2
+𢲲	lang2
+𢴇	zhi2
+𢴈	da2
+𢴒	peng1
+𢵌	dui4
+𢶠	shao1
+𢶤	xue1
+𢶷	guo3
+𢶷	chai1
+𢶷	cuo1
+𢷮	dui4
+#補簡體字#
+𢫊	dui4
+𢸍	zhen4
+𢸶	zui4
+𢸶	zuo2
+𢸶	cuo1
+𢸶	cuo4
+𢹸	cong2
+𢹸	cong1
+𢺳	man2
+#補簡體字#
+𪮳	man2
+𣁾	dou3
+𣂎	man3
+𣆂	xuan4
+𣆤	huang3
+𣆤	huang4
+𣆥	huang3
+𣆥	huang4
+𣇉	jun4
+𣇷	fang1
+𣇹	min3
+𣇹	hun1
+𣈲	mei2
+𣈴	miao2
+𣉢	mi1
+𣊉	ji3
+𣊊	jiao3
+𣊫	liu4
+#?#𣊫	hui3
+#?#𣊫	hui4
+𣊬	shun4
+𣊭	liu4
+#?#𣊭	hui3
+#?#𣊭	hui4
+𣋒	kui2
+𣋒	kui1
+𣋡	meng2
+𣌊	xia2
+𣏦	shi4
+𣏵	nan2
+𣏵	ran2
+#?#𣏵	ran3
+𣏾	ge2
+𣏾	ge1
+𣐀	wen3
+𣐀	wen2
+𣑲	pei4
+𣓥	rou2
+𣔰	zhi1
+#？#𣔰	zi1
+𣕧	jia4
+𣖕	ping2
+𣖙	mei3
+𣖜	gui4
+𣖜	wei4
+𣗍	qi2
+𣗎	quan2
+𣗏	feng1
+𣘀	xiu1
+𣙀	zhi2
+𣙙	sou1
+𣙙	chi4
+𣚭	ju2
+𣛮	sheng4
+𣜖	die2
+𣜠	xi1
+𣜯	xuan1
+𣝦	cui4
+𣞁	rong2
+#補充#
+㮠	rong2
+𣞢	zhe4
+𣞼	yang3
+#補充#
+𣝡	yang3
+𣟂	kuan1
+𣟕	shen1
+𣟖	mo4
+𣟗	yi2
+𣪧	jiao3
+𣪧	fang1
+𣫛	hu4
+𣫛	bo2
+𣫮	hao4
+𣫮	hao3
+𣭚	bao4
+𣭚	pao2
+𣱣	yin1
+𣱣	kun4
+𣲚	ren2
+𣲛	cheng2
+𣳇	zuo3
+𣳈	xian1
+#？#𣳈	sin1
+𣳉	si3
+𣳼	duo3
+𣳽	pei4
+𣳾	juan4
+𣳾	quan1
+𣳾	tai4
+#？#𣳾	teng2
+𣳿	yu3
+𣵛	xiu4
+𣶶	cai3
+𣶷	dan4
+𣶸	bing2
+𣶹	yan3
+𣶺	yi2
+𣶻	di2
+𣶼	fen1
+𣶽	yun2
+𣶽	han4
+𣶽	fa4
+𣶽	fa3
+𣶽	fa2
+𣶽	fa1
+𣷣	gang1
+𣸬	zhao1
+𣸭	ju1
+𣸭	ju3
+𣸭	ju4
+𣸮	yin1
+𣸰	min3
+#補充#
+𪠈	min3
+𣸱	yuan4
+𣸱	yu4
+𣸹	ping2
+𣸹	bing3
+𣸹	bing4
+𣺈	yi1
+𣺉	lin2
+𣺋	qian4
+𣺿	feng1
+𣻷	wei4
+𣻸	chang2
+𣻹	jian1
+𣻺	ji1
+𣻻	wan3
+𣻻	guan3
+𣻼	hao2
+𣼵	li4
+#補充#
+𫉃	li4
+𣽁	meng2
+#補充#
+𣾞	meng2
+𣽿	cheng2
+𣾀	hui4
+𣾁	qi2
+𣾂	jie1
+𣾏	qi2
+𣾴	pu2
+𣾷	qiao2
+#補充#
+㳢	qiao2
+𣿀	pu3
+𣿫	die2
+𣿬	hui4
+𣿭	yang4
+𣿭	yang3
+𣿮	kui2
+𣿯	shen1
+𤀹	jun4
+𤀹	xun4
+𤀹	rui4
+𤀺	jia1
+𤀻	shen1
+𤀼	lv4
+#補充#
+𡂎	lv4
+𤀽	qi3
+𤀽	yi3
+𤁗	mian2
+𤂋	chao2
+𤂌	jie2
+𤂌	xie2
+𤂍	lian2
+𤂑	nong2
+𤃉	li4
+𤃡	ying3
+𤄄	chi4
+#補充#
+𪆟	chi4
+𤄿	li4
+𤅄	lian2
+𤅕	chou2
+𤅖	pin2
+𤅖	ping2
+𤅗	ying2
+𤅜	piao1
+𤅟	lu4
+𤅟	lou4
+𤅺	xin1
+𤆥	zhuo2
+𤇍	jie2
+𤇍	zhu2
+𤇢	yan4
+𤇢	bai2
+𤇼	an1
+#補充#
+𥆄	wa1
+𥆄	guang1
+𥆄	huang3
+𥆄	huang4
+#補充#
+𤉋	cheng2
+𤉋	zheng1
+#？#𤉋	zheng3
+𤉖	che1
+𤉶	xiao1
+𤉸	ju1
+𤊄	mei2
+𤊄	qi2
+𤊓	ni2
+𤊕	cai3
+𤊥	ling2
+𤋉	xuan4
+𤋊	ping2
+𤋺	zhen1
+𤌚	hui2
+𤌴	can4
+𤌴	jie2
+𤍈	qi3
+𤍢	chi4
+𤍢	yi4
+𤍢	yan4
+𤍣	kun1
+𤍥	xu4
+𤍥	xu3
+𤎖	kang1
+𤎜	lang3
+𤎽	guan4
+𤏁	xi1
+𤏁	yi2
+𤏩	mao4
+𤏩	xu4
+𤏪	lao2
+𤐄	jian1
+𤐄	jian4
+𤐵	jia1
+𤐶	hao2
+𤑚	ying2
+𤒇	shen1
+𤒈	yan1
+𤒈	yan4
+𤒹	bi4
+𤔡	wei2
+𤔡	wei4
+𤔡	shang1
+𤕸	zhuang1
+𤘪	dan1
+𤙥	ke4
+𤚗	xuan1
+𤛔	man4
+𤜆	mang2
+#補簡體字#
+𪺪	mang2
+𤜥	cha1
+𤠣	hou2
+𤣳	gan1
+𤣿	kai1
+𤣿	qi2
+𤣿	jian1
+𤤀	tun2
+#？#𤤀	zhun1
+𤤁	fang1
+𤤌	chen2
+𤤖	fu2
+𤤗	ni2
+#補充#
+𡰱	ni2
+𤤙	yi4
+𤤯	yong3
+𤤳	yi3
+𤤾	heng2
+𤤾	hang2
+𤤿	bai3
+𤥀	dou1
+𤥁	ming2
+𤥂	yi4
+𤥃	an1
+𤥢	hao4
+𤥣	ke4
+𤥴	zhi4
+𤥵	xia2
+𤥶	na4
+𤦈	fen1
+𤦊	ta4
+𤦋	bing3
+𤦌	yi2
+𤦍	pei4
+𤦎	lun2
+𤦏	nao3
+𤦔	juan3
+𤦧	zhi1
+𤦫	ling2
+𤦬	nian4
+𤦭	jing1
+𤦷	jin2
+𤦷	yan3
+𤦸	bao3
+𤦹	tian4
+𤦹	zhen1
+𤦻	liang4
+𤧅	ping2
+𤧐	qiu1
+𤧞	mei3
+𤧟	ting2
+𤧥	bi4
+𤧶	xia4
+𤧷	zhan3
+𤧸	qi3
+𤧸	kai3
+𤧹	ci2
+𤧻	ting2
+𤨓	tu1
+𤨓	tu2
+𤨓	shu1
+𤨓	cha2
+𤨢	ying1
+𤨣	jiu4
+𤨤	zhen1
+𤨥	ji4
+𤨦	yi3
+𤨦	yi1
+𤨦	e3
+𤨧	piao4
+𤨧	piao1
+𤨨	min3
+𤨩	xiu1
+𤨪	can4
+𤨾	kun1
+𤩊	yao2
+𤩎	jian1
+𤩏	cheng2
+𤩐	si1
+𤩑	kai3
+𤩝	qiao2
+𤩥	shun4
+𤩦	jie2
+𤩧	chan2
+𤩷	xuan2
+𤩸	kui2
+𤩺	yi3
+𤩺	yi4
+#補充#
+㼁	yi3
+㼁	yi4
+𤪓	xuan2
+𤪔	guan3
+𤪕	wu3
+𤪖	hui1
+𤪤	rong2
+𤪥	ning2
+𤪦	ni3
+𤪧	feng4
+𤪱	xiu1
+#補充#
+𥱤	xiu1
+𤪲	li4
+𤪳	hui4
+𤪺	shen3
+#補充#
+㻘	shen3
+𤪻	xuan2
+𤪼	lian2
+𤪼	lian3
+𤫇	yan4
+𤫇	yan1
+𤫑	xia2
+𤫟	li4
+𤫢	lu4
+𤭮	tong2
+𤯵	ying2
+𤰉	yong4
+#補充#
+𨀍	yong4
+𤲞	fan2
+𤲞	fan1
+𤲞	pan1
+𤲟	qing1
+𤳙	wan3
+𤳙	xia4
+𤴆	chou2
+𤶸	na1
+𤶸	na4
+𤶸	mu4
+𤹐	lie4
+𤼎	cheng1
+𤼎	mo4
+#補充#
+𥂮	mo4
+𤾂	wan3
+𤾂	huan3
+𤾚	hao4
+𤾩	bi4
+𤿂	xi3
+𥂝	an1
+𥄫	ji2
+𥅈	la4
+𥅈	li4
+𥅽	mi4
+𥅽	jia2
+𥅾	zhuang1
+𥇣	qu1
+𥇣	ku1
+𥇣	jue2
+𥇦	xi1
+𥇧	nai4
+𥈡	nai4
+𥊙	mian3
+𥊙	man3
+#補充#
+𡕩	mian3
+𡕩	man3
+𥋘	shao4
+𥌑	jun4
+𥌑	rui4
+𥌓	shu3
+#?#𥌓	shu4
+𥐥	fan2
+𥐯	yun2
+𥐯	tan2
+#補充#
+𥖅	yun2
+𥔿	tao1
+𥔿	kan3
+𥕛	ji1
+𥕜	wan3
+𥕜	guan3
+𥕝	zha1
+𥕝	shi2
+#補充#
+𫂹	shi2
+𥕞	zhang1
+𥖁	zun1
+𥖏	guan4
+𥖹	tong2
+𥗕	yuan2
+𥗕	yan4
+𥗕	yan1
+𥗛	qian2
+𥗠	li4
+𥘵	zu3
+𥘵	tai2
+#?#𥘵	jie1
+𥙑	shui4
+#?#𥙑	guang1
+𥚕	chang1
+𥚕	mao4
+𥛣	dai4
+𥛣	di4
+𥛶	xi3
+𥛶	xi1
+𥜆	piao1
+𥜆	piao3
+𥜆	piao4
+𥜝	xie2
+𥜝	jie2
+𥝲	geng1
+𥝲	jing1
+𥟇	qiu2
+𥟠	jie1
+𥡗	ma3
+𥡲	yong1
+𥡲	yong2
+𥣡	nei3
+𥣡	sui1
+𥥖	e4
+𥥖	xue2
+#補充#
+𠲩	xue2
+𠲩	e4
+𥦬	chuang1
+𥪜	ting2
+𥪮	zhang1
+𥫩	shao2
+𥫩	zhuo2
+𥫩	shuo4
+𥭴	xin1
+𥮳	ya3
+𥮳	ya4
+𥮴	dong1
+𥰁	zheng1
+𥰁	jing1
+𥰆	di4
+𥱥	chu2
+𥳀	wei4
+𥴠	zuan3
+𥵃	zhan3
+#補充#
+𥱔	zhan3
+𥸎	teng2
+𥺁	zhuang1
+𥺂	jiong3
+𥺃	zhi4
+𥺦	dian4
+𥺼	ya4
+𥺼	ya3
+#補充#
+𮇔	ya4
+𮇔	ya3
+𥻘	lin2
+𥽋	jian3
+𥿡	ni2
+𥿢	hong2
+𦀩	duan4
+𦁤	nian4
+#補充#
+𫝹	nian4
+𦂃	ting1
+𦂤	ping2
+𦂥	beng4
+𦅙	wen2
+𦅛	xun2
+𦅜	ning2
+𦆮	hui1
+𦆲	liao4
+𦆲	liao2
+𦇝	ying2
+𦉡	tan2
+𦋐	zhao4
+𦎾	xi1
+𦐐	wen2
+𦐑	wen2
+𦐒	yi4
+𦒘	xian1
+𦔒	zi1
+𦕲	ge2
+𦖠	yan3
+𦖭	yu2
+𦘦	zhao4
+𦚯	yin4
+𦚱	lao3
+𦚵	shai4
+𦚵	xi1
+𦛼	bing1
+𦝁	qi1
+#?#𦝁	ji1
+#補充#
+𣍠	qi1
+#?#𣍠	ji1
+𦞳	qia4
+𦞴	a1
+𦞴	yan1
+𦡞	jin4
+𦡮	pu3
+#補充#
+𦟊	pei4
+𦢈	yan4
+#補充#
+𣍨	zhen1
+𣍨	zhen3
+𣍨	nai3
+𦤑	gao1
+𦤑	hao2
+𦦨	yan4
+#?#𦦨	yan2
+𦦵	song1
+𦩂	xun2
+𦩑	lai2
+𦩒	ya3
+𦩒	ya4
+𦬊	da4
+𦬊	dai4
+𦬨	ze2
+𦬨	cai4
+𦭐	chi4
+𦭑	ting1
+𦭑	ding1
+𦭒	zhi3
+𦭓	shi4
+𦭛	qian1
+𦮖	you3
+#?#𦮖	you4
+𦮗	nan1
+#?#𦮗	lan1
+𦮝	mang2
+𦮳	qi4
+𦯷	miao4
+𦱿	xiao3
+#?#𦱿	yo2
+𦲀	yi2
+𦲁	ni2
+𦲁	ni1
+𦲂	yao4
+𦲂	ju3
+𦲸	liang3
+𦲸	man2
+𦲽	xian1
+𦲽	xin1
+𦳀	mei4
+𦴢	shi1
+𦴣	yi1
+𦴤	ying4
+𦴥	xun2
+𦴦	ke4
+𦴧	fei1
+𦴨	jun4
+𦴨	jiong3
+𦴩	xin4
+𦴪	ni3
+𦶠	gen1
+𦶡	hao4
+𦶢	hang2
+𦶣	lie4
+𦶤	yuan4
+𦶥	e2
+𦶦	na4
+𦶦	nuo2
+𦶧	gun3
+𦶧	suo1
+𦷜	xia4
+𦷪	sui1
+𦷫	hai3
+#?#𦷫	kang1
+#補充#
+𢲨	hai3
+𦷰	fu2
+𦹂	bao3
+𦹃	fu2
+𦹄	shao4
+𦹅	wan3
+𦹮	cai3
+𦹲	hun4
+𦹷	bei4
+𦹷	pei2
+𦺄	qing1
+𦻑	yong3
+𦻒	mu4
+𦻓	cheng2
+𦻔	fei3
+𦻕	yin3
+𦻖	xuan4
+𦻗	fen4
+𦻗	jin4
+𦼦	sheng4
+𦽳	chai4
+𦽴	jing4
+#補充#
+靖	jing4
+𦾟	zhan3
+#補充#
+𦶻	zhan3
+𦾡	wei2
+𦿞	cong1
+𦿟	qi3
+𦿟	yi3
+𧁒	yang4
+𧁓	nong2
+𧂮	jing4
+𧂯	yun4
+𧃸	wei1
+𧃸	wei2
+𧃸	hui1
+𧄉	cong1
+𧄉	zong3
+𧄌	dun3
+#?#𧄌	dun1
+#?#𧄌	man4
+𧄦	fu4
+𧄧	yun4
+𧅤	bao3
+𧅥	xin1
+𧅥	xing1
+𧅵	pin2
+𧈛	si1
+𧊀	jia1
+𧊋	shen1
+#補充#
+𧌀	tun1
+𧎚	ha2
+𧎚	xia1
+𧎚	duan4
+𧐢	hao2
+𧒄	jian4
+𧒄	jian1
+𧒆	zun1
+𧗠	yan3
+𧗤	kan4
+𧗤	kan3
+𧗽	heng2
+𧘇	yi1
+𧘇	yi4
+𧘌	reng2
+𧘲	zhi3
+𧙕	zhu1
+𧙕	wa4
+𧙕	mo4
+𧙗	tuo1
+𧙗	tuo4
+𧚔	tong3
+𧚔	tong2
+𧜏	pei2
+𧝁	yu3
+𧝁	xuan1
+𧞄	ao3
+𧞅	da4
+𧞅	da2
+𧡰	ti2
+𧪽	jin4
+𧪾	sun1
+𧫴	jin3
+𧬸	teng2
+𧬹	li3
+𧬺	di4
+𧵓	chao1
+𧵔	bei4
+𧶽	ci4
+𧶽	si4
+𧷜	weng1
+𧹍	zan4
+𧹏	zan4
+𨀂	zhi2
+𨀂	zhe4
+#？#𨀂	dun3
+𨈇	lan4
+#補充#
+𨇣	lan4
+𫏠	lan4
+𨉼	wu4
+𨉼	e4
+𨋍	yun3
+𨋢	li4
+#補充#
+䢂	li4
+𨌺	han4
+𨍥	yao1
+𨗴	xian1
+𨘀	xu1
+𨘀	ting3
+𨘋	yao1
+𨘥	yan2
+𨘻	yuan3
+𨚪	li4
+𨚪	li1
+𨚪	qi2
+𨛘	sheng1
+𨠄	dan1
+𨠄	zhen4
+𨠫	you2
+𨤳	li2
+#？#𨤳	lei3
+𨥈	ji3
+𨥈	si4
+𨥉	shan1
+𨥖	shuang1
+𨥖	shuang2
+𨥖	xin1
+#補充#
+𨰚	shuang1
+𨥬	nu2
+#？#𨥬	na2
+#？#𨥬	ni4
+𨦉	pian2
+𨦉	su4
+𨦨	pei4
+𨦪	yang3
+𨦼	chen4
+𨦼	yan2
+𨧜	bang1
+#補充#
+䦁	bang1
+𨧞	zha1
+𨧞	jie1
+𨧞	zu3
+𨧞	ying2
+𨧡	jun1
+𨧡	ju4
+𨧡	ju1
+𨧣	ke2
+𨧣	qiao4
+𨧣	que4
+𨧤	heng1
+𨧹	ming2
+𨧺	bing3
+𨧻	xian2
+𨧼	fen1
+𨨥	shen1
+𨨩	zhong1
+𨩄	yu4
+𨩅	hong2
+𨩆	wei1
+𨩇	nan2
+#？#𨩇	nie4
+𨩈	bei4
+𨩈	bei1
+𨩉	huan4
+𨩊	you2
+𨩋	wei4
+𨩙	ying2
+𨩚	bao3
+𨪁	yao4
+𨪂	cong1
+𨪂	sui4
+𨪚	xuan1
+𨪛	yuan2
+𨪜	en1
+𨫆	ting2
+𨫋	gong4
+𨫌	jin4
+𨫞	chi2
+𨫞	shi5
+𨫟	liang2
+𨫠	que4
+𨫠	qiao1
+𨫠	qiao3
+𨫡	jian4
+𨫣	qiu2
+𨫥	qiang1
+𨫪	han4
+#？#𨫪	han1
+𨬌	kun1
+𨬡	qu2
+𨬢	xian4
+𨬫	kai3
+𨬬	fu4
+𨬭	zao2
+𨬭	zuo4
+𨬯	xi1
+𨭣	chu3
+𨭤	ao2
+𨭤	ao1
+𨭦	yuan2
+𨭬	wan4
+𨮏	can4
+𨮙	hao2
+𨮜	jian3
+𨮜	jian4
+𨮝	zhui4
+𨯂	zhen4
+𨯅	li4
+#補充#
+䥿	li4
+𨯗	ying2
+𨯙	qing4
+𨯧	yan4
+#？#𨯧	yan1
+𨯨	xi1
+𨯩	zan1
+𨯪	han4
+𨯫	e4
+#？#𨯫	he4
+𨯬	yuan2
+𨯬	huan2
+#？#𨯬	yi2
+𨯿	jian4
+𨰃	ying1
+#補充#
+𫔉	ying1
+𨰉	zha2
+𨰣	li4
+𨰫	yan2
+𨰹	jian4
+𨳍	qi1
+𨳍	chi1
+𨳒	diao3
+𨳒	men2
+𨳒	chu4
+#補充#
+𨳖	chu4
+#補充#
+𡮆	men2
+#補充#
+𡮉	men2
+#補充#
+𡭜	men2
+𨴴	bing1
+𨹥	di4
+𨹦	dai1
+𨺲	yu2
+𨺳	yong3
+𨻙	huang3
+𨿅	ming2
+𨿅	luo4
+𩂋	jin1
+𩂯	xiu1
+𩂰	ru2
+𩃤	qi2
+𩃥	pei4
+𩄍	qiu1
+𩅛	feng2
+𩆨	feng1
+𩐝	yun4
+𩐳	yun4
+𩐳	feng4
+𩖞	lan2
+𩡗	chou4
+𩡗	xiu4
+𩢤	yu4
+𩣪	keng1
+𩤅	ju1
+𩤯	ying1
+𩥝	yi4
+𩥪	feng1
+𩦝	sheng4
+𩬅	ran2
+𩯕	shu1
+𩲭	rong2
+𩴾	mie4
+𩵼	bo1
+𩵼	ba2
+𩵼	ba4
+𩵼	you3
+𩸭	lei4
+𩸭	li4
+𩹨	xia1
+𩹨	ha2
+𩹨	duan4
+#補充#
+𫙨	xia1
+𫙨	ha2
+𩺬	zhui1
+𩻃	chong2
+𩼣	guo4
+𩼰	ci2
+𪃡	hong2
+𪃳	ying1
+𪃸	die2
+𪄣	hao4
+𪅐	yi4
+𪆒	yan4
+𪆓	si1
+𪆓	ci2
+𪇟	yu4
+𪈠	ying4
+𪋟	zhang1
+𪋿	bu2
+𪋿	bu3
+#補充#
+𤿲	fu1
+𪎩	wa1
+𪏭	li2
+𪚩	gui1
+𪷿	ying3
+勇	yong3
+咢	e4
+晉	jin4
+芳	fang1
+䕫	kui2
+蜨	die2
+#？#蜨	jie2
+貫	guan4
+𣄽	zhuo2
+𣄽	zhuo1
 ##### 補充『官方字典』正確發音（不論是「讀音」、「語音」、「又音」），包含「台灣」和「大陸」發音 #####
 麼	ma5	1%
 眭	gui4
@@ -642,7 +2802,7 @@ min_phrase_weight: 100
 睪	gao1	50%
 睪	ze2	0%
 睾	yi4	1%
-皋	yao2	1%
+#皋	yao2	1%
 皋	hao2	0%
 禧	xi1
 痴	chi2
@@ -940,7 +3100,7 @@ min_phrase_weight: 100
 檪	yue4	0%
 氇	luo2	0%
 氇	lu3	0%
-氇	lu5	0%
+#氇	lu5	0%
 濵	bin1	0%
 濵	pin2	0%
 灳	hui1	0%
@@ -1030,7 +3190,7 @@ min_phrase_weight: 100
 㘆	tai2	0%
 噥	nang2	0%
 哝	nang2	0%
-朥	lao5	0%
+#朥	lao5	0%
 𦛨	lao2	0%
 嗊	gong3	0%
 嗊	gong4	0%
@@ -1169,7 +3329,209 @@ min_phrase_weight: 100
 鲑	xie2	0%
 鲑	wa1	0%
 迹	ji1
-##### 201912 比對教育部相關字詞典檔所新增 #####
+磅	pang2	10%
+熀	huang4	0%
+熀	ye4	0%
+庄	wu3	0%
+圧	ya4	0%
+澍	zhu4	0%
+厘	chan2	0%
+鉞	hui4	0%
+钺	hui4	0%
+匿	te4	0%
+僚	liao3	0%
+叕	zhui4	0%
+吾	yu4	0%
+吾	ya2	0%
+濼	po1	0%
+濼	li4	0%
+泺	po1	0%
+泺	li4	0%
+泺	bo2	0%
+泺	po4	0%
+処	chu4	0%
+处	chu3	0%
+蔹	lian2	0%
+蔹	lian4	0%
+蘝	lian2	0%
+蘝	lian4	0%
+薟	lian4	0%
+勔	min3	0%
+叡	rui3	0%
+扱	cha1	0%
+扱	qi4	0%
+担	da2	0%
+峉	e2	0%
+呢	ni3	0%
+啄	zhou4	0%
+𨻶	xi4	0%
+噍	jiao2	0%
+噍	jue2	0%
+潽	pu3	0%
+堕	hui1	0%
+噧	ta4	0%
+佛	bo2	0%
+埢	juan4	0%
+卡	nong4	0%
+卡	long4	0%
+嬭	ni4	0%
+妳	ni4	0%
+戍	xu1	0%
+隶	shi4	0%
+娉	pin4
+翁	weng3	0%
+蕑	jian3	0%
+䔵	jian1	0%
+#䔵	jian3	0%
+薔	se4	0%
+蔷	se4	0%
+掲	qi4	0%
+玚	yang2	0%
+𩾖	fu2	0%
+餄	jia2	0%
+饸	jia2	0%
+餎	ge1	0%
+餎	le4	0%
+饹	ge1	0%
+饹	le4	0%
+鞡	la1	0%
+𤷟	la1	0%
+和	si1	0%
+吅	lin2	0%
+墶	da5	0%
+墶	da2	0%
+垯	da1	0%
+垯	da2	0%
+𡐿	da2	0%
+胳	ge2	0%
+慌	huang3	0%
+尢	you2	0%
+兯	jie2	0%
+#兯	han1	0%
+#爳	han1	0%
+逡	xun4	0%
+彖	shi3	0%
+㞘	tun2	0%
+屈	jue2	0%
+翏	liao2
+㡘	jian1	0%
+#𢅏	jian1	0%
+冏	jiong1	0%
+乙	yi4	0%
+㤤	yu3	0%
+贛	zhuang4	0%
+搄	gen4	0%
+搄	geng4	0%
+揯	geng4	0%
+揯	geng1	0%
+捏	nian3	0%
+拘	gou1	0%
+措	ze2	0%
+措	ci4	0%
+揃	qian1	0%
+侰	jun4	0%
+㟒	qun2	0%
+湣	hun1	0%
+焟	xi2	0%
+藈	kui1	0%
+抆	wen3	0%
+抆	men2	0%
+㕙	rui4	0%
+柟	ran2	0%
+楪	ye4	0%
+㷤	he4	0%
+#㷤	hu2	0%
+謻	chi3	0%
+濬	xun4	0%
+浚	xun4	0%
+葠	shan1	0%
+薓	shan1	0%
+泞	chu3	0%
+泞	ning2	0%
+濘	ning2	0%
+泞	ni4	0%
+濘	ni4	0%
+綺	yi3
+绮	yi3
+净	zheng1	0%
+櫟	yue4
+炢	hu1	0%
+烼	hu1
+䀨	tian2	0%
+煎	jian4	0%
+丹	zhou1	0%
+珩	hang2	0%
+瑹	tu2	0%
+番	fan2	0%
+瞤	ruan2	0%
+碌	luo4	0%
+稅	tuo1	0%
+稅	tui4	0%
+稅	tuan2	0%
+鿋	xi1	0%
+喜	xi1	0%
+喜	chi4	0%
+撷	jie2	0%
+秔	geng1	0%
+稉	geng1	0%
+䊮	zhe2	0%
+䊮	zhe4	0%
+窈	yao4	0%
+芍	xiao4	0%
+芍	di4	0%
+芈	mie1	0%
+#𦒎	guan4	0%
+趼	yan4	0%
+臯	hao2	0%
+爓	xun2	0%
+爓	xian2	0%
+囡	ni4	0%
+衎	kan3	0%
+虹	gong4	0%
+袥	tuo4	0%
+桶	yong3	0%
+呃	ai4	0%
+迣	chi4	0%
+迣	li4	0%
+#迣	shi4	0%
+迋	kuang1	0%
+逌	you1	0%
+伽	ga1	0%
+遌	wu4	0%
+遌	wu3	0%
+薳	yuan3	0%
+䓕	wei3	0%
+䤨	pi1	0%
+銢	pi1	0%
+鈲	pi1	0%
+锯	ju1	0%
+胃	zhou4	0%
+熕	gong4	0%
+镝	di2	0%
+镐	hao4	0%
+䭕	jian4	0%
+鏏	hui4	0%
+鏸	wei4	0%
+𨰓	jian4	0%
+岯	pi1	0%
+逢	pang2	0%
+逄	peng2	0%
+逄	feng2	0%
+頯	qiu2	0%
+鮁	ba2	0%
+鲅	ba2	0%
+鲅	bo1	0%
+䱒	yi4	0%
+䱒	ye1	0%
+鴄	pi3	0%
+鴄	bei1	0%
+扻	kan3	0%
+扻	jie2	0%
+扻	sun3	0%
+扻	zhi4	0%
+欿	qian4	0%
+埳	xian4	0%
+#####@ 201912 比對教育部相關字詞典檔所新增 #####
 丁	zheng1	0%
 丂	kao3	0%
 乂	ai4	0%
@@ -1314,7 +3676,7 @@ min_phrase_weight: 100
 呺	hao2	0%
 咇	bi3	0%
 咇	bie2	0%
-和	huo5	0%
+和	huo5	10%
 咎	gao1	0%
 坯	pei1	0%
 坳	ao1	0%
@@ -1580,7 +3942,6 @@ min_phrase_weight: 100
 茷	pei4	0%
 茹	ru4	0%
 荂	hua1	0%
-荍	qiao2	0%
 衃	fou2	0%
 衾	qin2	0%
 趵	bo1	0%
@@ -2637,7 +4998,6 @@ min_phrase_weight: 100
 殽	xiao2	0%
 沓	da2	0%
 洟	ti4	0%
-渓	xi1	0%
 滊	xie1	0%
 潃	xiu3	0%
 灠	lan4	0%
@@ -2715,7 +5075,6 @@ min_phrase_weight: 100
 髺	kuo4	0%
 魟	hong2	0%
 鮁	ba4	0%
-鳬	fu2	0%
 麫	mian4	0%
 齚	ze2	0%
 ##### 以下為原 terra_pinyin 拼音編碼（部分有修正） #####
@@ -3795,7 +6154,7 @@ min_phrase_weight: 100
 㡖	chuang2
 㡗	ti2
 㡘	lian2
-㡘	lin2
+#㡘	lin2
 㡙	bi1
 㡚	gou1
 㡛	mang2
@@ -9809,7 +12168,7 @@ min_phrase_weight: 100
 丳	chan3
 临	lin2
 丵	zhuo2
-丶	dian3	50%
+#丶	dian3	50%
 丶	zhu3	50%
 丷	ba1
 丸	wan2
@@ -9853,7 +12212,7 @@ min_phrase_weight: 100
 乘	cheng2	99%
 乘	sheng4	1%
 乙	yi3	100%
-乙	zhe2	0%
+#乙	zhe2	0%
 乚	ya4
 乛	zhe2
 乜	mie1
@@ -12783,8 +15142,9 @@ min_phrase_weight: 100
 埐	jin1
 埐	qin2
 埑	zhe2
-埒	lei4
+#埒	lei4
 埓	lie4
+埓	le4
 埔	bu4	50%
 埔	pu3	50%
 埕	cheng2
@@ -13216,10 +15576,10 @@ min_phrase_weight: 100
 奊	pi2
 奊	xi3
 奊	xie2
-奋	ben3	2.5%
+#奋	ben3	2.5%
 奋	fen4	0.5%
 奋	gang3	97%
-奋	kang3	97%
+#奋	kang3	97%
 奌	dian3
 奍	juan4
 奍	quan1
@@ -14779,7 +17139,7 @@ min_phrase_weight: 100
 庁	ting1
 庂	ze4
 広	guang3
-庄	peng2	98%
+#庄	peng2	98%
 庄	zhuang1	2%
 庅	mo2
 庆	qing4
@@ -14880,7 +17240,7 @@ min_phrase_weight: 100
 廞	xin1
 廟	miao4
 廠	chang3
-廡	wu2	50%
+#廡	wu2	50%
 廡	wu3	50%
 廢	fei4
 廣	guang3
@@ -15033,7 +17393,7 @@ min_phrase_weight: 100
 彣	wen2
 彤	tong2
 彥	yan4
-彦	pan2
+#彦	pan2
 彦	yan4
 彧	yu4
 彨	chi1
@@ -17006,7 +19366,7 @@ min_phrase_weight: 100
 新	xin1
 斱	zhuo2
 斲	zhuo2
-斳	jin3
+#斳	jin3
 斳	qin2
 斴	lin2
 斵	zhuo2
@@ -18901,6 +21261,7 @@ min_phrase_weight: 100
 氊	zhan1
 氋	meng2
 氌	lu3
+氌	luo2
 氍	qu2
 氎	die2
 氏	shi4
@@ -19001,7 +21362,9 @@ min_phrase_weight: 100
 江	jiang1
 池	chi2
 污	wu1
-汢	tu5
+#汢	tu5
+汢	tu3
+#汢	shi4
 汣	jiu3
 汤	tang1
 汥	ji4
@@ -19510,7 +21873,8 @@ min_phrase_weight: 100
 渐	jian4
 渑	mian3
 渒	pi4
-渓	qi1
+#渓	qi1
+渓	xi1
 渔	yu2
 渕	yuan1
 渖	shen3
@@ -21319,7 +23683,7 @@ min_phrase_weight: 100
 瑐	jian3
 瑑	zhuan4
 瑒	chang4
-瑒	dang4
+#瑒	dang4
 瑒	yang2
 瑓	lian4
 瑔	quan2
@@ -21445,7 +23809,7 @@ min_phrase_weight: 100
 瓆	zhi4
 瓇	rou2
 瓈	li2
-瓈	li5
+#瓈	li5
 瓉	zan4
 瓊	qiong2
 瓋	ti4
@@ -23631,7 +25995,8 @@ min_phrase_weight: 100
 簿	bu4
 籀	zhou4
 籁	lai4
-籂	shi5
+#籂	shi5
+籂	shi4
 籃	lan2
 籄	kui4
 籅	yu2
@@ -25677,7 +28042,8 @@ min_phrase_weight: 100
 荊	jing1
 荋	er2
 荌	an4
-荍	shou1
+#荍	shou1
+荍	qiao2
 荎	chi2
 荏	ren3
 荐	jian4
@@ -26374,10 +28740,10 @@ min_phrase_weight: 100
 薜	bi4
 薝	zhan1
 薞	sun1
-薟	kan4
+#薟	kan4
 薟	lian3
 薟	xian1
-薟	yan2
+#薟	yan2
 薠	fan2
 薡	ding3
 薢	xiao4
@@ -28058,7 +30424,7 @@ min_phrase_weight: 100
 謸	ao2
 謹	jin3
 謺	zhe2
-謻	chi2
+#謻	chi2
 謻	yi2
 謼	hu1
 謽	jiang4
@@ -33152,7 +35518,8 @@ min_phrase_weight: 100
 鳩	jiu1
 鳪	bu2
 鳫	yan4
-鳬	fu3
+#鳬	fu3
+鳬	fu2
 鳭	diao1
 鳭	zhao1
 鳮	ji1
@@ -42681,7 +45048,7 @@ min_phrase_weight: 100
 𦛣	yan2
 𦛤	guan3
 𦛧	zhi4
-𦛨	lao5
+#𦛨	lao5
 𦛯	du3
 𦛰	qi4
 𦛱	qu1
@@ -48871,7 +51238,8 @@ min_phrase_weight: 100
 𩾄	xun4
 𩾅	tu4
 𩾆	ni2
-𩾇	hu5
+#𩾇	hu5
+𩾇	hu3
 𩾈	shu1
 𩾊	xu1
 𩾋	zhong4
